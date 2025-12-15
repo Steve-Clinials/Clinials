@@ -1,1 +1,29 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1a73e8"/>
+            <stop offset="100%" stop-color="#4285f4"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- 背景圆形 -->
+    <circle cx="100" cy="100" r="80" fill="url(#textGradient)"/>
+    
+    <!-- Clinials文字 -->
+    <text x="100" y="110" text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="40" 
+          font-weight="bold" 
+          fill="white">
+        C
+    </text>
+    
+    <text x="100" y="150" text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="18" 
+          font-weight="bold" 
+          fill="white" 
+          opacity="0.9">
+        clinials
+    </text>
+</svg>
